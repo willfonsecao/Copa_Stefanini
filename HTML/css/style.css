@@ -1,0 +1,175 @@
+
+body{
+     background: url(../images/bg.svg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    background: none;
+    text-align: center;
+    padding: 1% 0%;
+}
+
+h5{
+    color: white;
+}
+
+h4{
+    color: white;
+    font-size: 16px;
+}
+
+h3{
+   color: white; 
+}
+
+select{
+    max-width: 462px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 7px;
+}
+
+select option {
+    margin: 40px;
+    background: #052b45;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.row{
+    margin: 1% 0;
+}
+
+.linkbreadcrumb{
+    border-top: solid 1px white;
+    border-radius: 8px;
+    width: 10%;
+    text-align: center;
+    color: white;
+}
+
+.resultado{
+    margin-top: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 20%;
+    border-bottom: solid 1px white;
+}
+
+.chave{
+    text-align: center;
+    border-radius: 20%;
+    border-bottom:solid 1px white;
+}
+
+.colleft{
+    margin-bottom: 2%;
+    background-image: url('../images/v.svg');
+    background-position-x: right;
+    background-repeat: no-repeat;
+    display: block;
+    background-position-y: 27%;
+}
+.colright{
+    background-image: url('../images/s.svg');
+    background-position-x: left;
+    background-repeat: no-repeat;
+    display: block;
+    background-position-y: 27%;
+}
+
+.lastcol{
+    margin-bottom: 0%;
+}
+
+.dividerRight{
+    border-right: solid 1px white;
+    margin-bottom:1%
+}
+.dividermin{}
+
+.fotoJogador{
+    width: 78px;
+    height: 78px;
+}
+
+#logo{
+    width: 150px;
+}
+
+#logo:hover{
+    width: 155px;
+}
+div.square {
+  border: solid 1px #fff;
+  width: 80px;
+  height: 80px;
+}
+
+.calendar{}
+
+.taca{
+    width: 71px
+}
+
+@media screen and (max-width: 984px){
+    .resultado{text-align: center;border-radius: 0px;border-bottom: solid 2px white;}
+    .chave{border-radius: 0px;border-bottom: solid 2px white;}
+    .square{display: inline-table;border: solid 2px #fff !important;width: 203px;height: 203px}
+    .fotoJogador{width: 200px;height: 200px}
+    .colleft{margin-bottom: 0;background-image: url("../images/vM.svg");background-position-y: 13%;}
+    .colright{background-image: url("../images/sM.svg");background-position-y: 13%;}
+    .dividerRight{border: none}
+    .dividermin{border-right: solid 1px white;}
+    .lastcol{margin-bottom: 2%}
+    .calendar{width: 68px}
+    .taca{width: 162px}
+    #logo{width: 300px;margin-bottom: 50px}
+    #logohome{width: 77%}
+    select{width: 462px;height: 45px;font-size: 20pt;border: solid 3px white;}
+    h3{font-size: 50px}
+    h4{font-size:28px}
+    h5{font-size:23px}
+}
+
+.flex-container {
+    height: 762px;
+    max-height: 762px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
+
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
