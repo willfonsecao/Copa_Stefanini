@@ -27,6 +27,10 @@ h3{
    color: white; 
 }
 
+.navbar-default{
+    background-color: transparent;
+}
+
 select{
     max-width: 462px;
     width: 100%;
@@ -52,6 +56,15 @@ select option {
     width: 10%;
     text-align: center;
     color: white;
+}
+
+.link{
+    color: white;
+}
+
+.link:hover{
+    color: blue;
+    text-decoration: underline;
 }
 
 .resultado{
