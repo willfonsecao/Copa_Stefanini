@@ -94,6 +94,10 @@ select option {
 }
 .dividermin{}
 
+.dividerBottom{
+    border-bottom: solid 1px white;
+}
+
 .fotoJogador{
     width: 78px;
     height: 78px;
@@ -127,6 +131,7 @@ div.square {
     .colright{background-image: url("../images/sM.svg");background-position-y: 13%;}
     .dividerRight{border: none}
     .dividermin{border-right: solid 1px white;}
+    .dividerBottom{border: none;}
     .lastcol{margin-bottom: 2%}
     .calendar{width: 68px}
     .taca{width: 162px}
