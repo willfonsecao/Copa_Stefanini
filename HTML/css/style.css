@@ -103,6 +103,11 @@ select option {
     height: 78px;
 }
 
+.fase{
+    color:white;
+    margin-bottom: 30px;
+}
+
 #logo{
     width: 150px;
 }
