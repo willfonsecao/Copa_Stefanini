@@ -116,6 +116,11 @@ select option {
     height: 78px;
 }
 
+.perdedor{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 .fase{
     color:white;
     margin-bottom: 30px;
